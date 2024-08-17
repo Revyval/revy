@@ -1,5 +1,5 @@
 {
   "test": "test",
-  "slogan": "The best way to learn is to teach",
+  "slogan": "The worst way to learn is to teach",
   "introduction": "Welcome to our comprehensive guide on internationalization (i18n) with Vue.js. This example will help you understand how to implement multilingual support in your Vue applications, making them accessible to a global audience. Follow along to learn best practices and tips for effective i18n integration."
 }
