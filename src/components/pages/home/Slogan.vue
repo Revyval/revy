@@ -1,12 +1,28 @@
 // src/components/pages/home/Slogan.vue
 <script setup>
-import EnteringText from "@/components/pages/home/EnteringText.vue";
+import EnteringText from "@/components/animations/EnteringText.vue";
+import EnteringWrapper from "@/components/animations/EnteringWrapper.vue";
 </script>
 
 <template>
-  <EnteringText name="text-transition" mode="out-in">
+  <EnteringWrapper>
     <h3 class="slogan">{{ $t('slogan') }}</h3>
-  </EnteringText>
+  </EnteringWrapper>
+  <EnteringWrapper>
+    <h3 class="slogan">{{ $t('slogan') }}</h3>
+  </EnteringWrapper>
+  <EnteringWrapper>
+    <h3 class="slogan">{{ $t('slogan') }}</h3>
+  </EnteringWrapper>
+  <EnteringWrapper>
+    <h3 class="slogan">{{ $t('slogan') }}</h3>
+  </EnteringWrapper>
+  <EnteringWrapper>
+    <h3 class="slogan">{{ $t('slogan') }}</h3>
+  </EnteringWrapper>
+  <EnteringWrapper>
+    <h3 class="slogan">{{ $t('slogan') }}</h3>
+  </EnteringWrapper>
 </template>
 
 <style scoped>
