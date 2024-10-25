@@ -25,7 +25,6 @@ onBeforeUnmount(() => {
 function handleIntersection(entries) {
   entries.forEach((entry) => {
     isVisible.value = entry.isIntersecting;
-    console.log('Element visibility:', isVisible.value);
   });
 }
 </script>
@@ -41,15 +40,6 @@ function handleIntersection(entries) {
 </template>
 
 <style scoped>
-.animated-div-wrapper {
-  min-height: 100px;
-  min-width: 100px;
-}
-
-.animated-div {
-  height: 100%;
-  width: 100%;
-}
 
 .fade-slide-enter-active,
 .fade-slide-leave-active {

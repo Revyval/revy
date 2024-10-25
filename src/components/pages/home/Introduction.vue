@@ -1,13 +1,14 @@
 <script setup>
 
+import EnteringText from "@/components/animations/EnteringText.vue";
 </script>
 
 <template>
-  <div class="introduction">
+  <EnteringText class="introduction">
     <h3>
       {{ $t('introduction') }}
     </h3>
-  </div>
+  </EnteringText>
 </template>
 
 <style scoped>

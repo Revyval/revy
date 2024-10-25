@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Basic shirt",
+    "description": "A basic shirt with the Revyval logo on the back.",
+    "price": 20,
+    "image": "basic-shirt.jpg"
+  },
+  {
+    "title": "Skibbidi trousers",
+    "description": "Custom trousers with aclyric desigs and custom embroidery.",
+    "price": 50,
+    "image": "skibbidi-trousers.jpg"
+  },
+  {
+    "title": "Revival hoodie",
+    "description": "A hoodie with the Revyval logo on the front and back.",
+    "price": 40,
+    "image": "revival-hoodie.jpg"
+  },
+  {
+    "title": "Revival cap",
+    "description": "A cap with the Revyval logo on the front.",
+    "price": 15,
+    "image": "revival-cap.jpg"
+  },
+  {
+    "title": "Revival socks",
+    "description": "Socks with the Revyval logo on the front.",
+    "price": 10,
+    "image": "revival-socks.jpg"
+  }
+]

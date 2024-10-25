@@ -12,6 +12,7 @@ const browserLanguage = navigator.language.split('-')[0];
 const savedLanguage = localStorage.getItem('language') || browserLanguage || 'en';
 
 export const i18n = createI18n({
+    legacy: false,
     locale: savedLanguage,
     fallbackLocale: 'en',
     globalInjection: true,
