@@ -114,7 +114,7 @@ header {
 }
 
 .logo {
-  width: 140px; /* Ensure the logo has a defined size */
+  width: 140px;
   height: 140px;
   max-width: 100%;
   max-height: 100%;
@@ -128,5 +128,13 @@ header {
 .logo:hover {
   color: var(--background-lighter);
   transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-left: 4px;
+    width: 120px;
+    height: 120px;
+  }
 }
 </style>

@@ -72,10 +72,10 @@ const beforeLeave = (el) => {
 };
 
 const handleClickOutside = (event) => {
-  const dropdownElement = document.querySelector('.dropdown');
+  const languageSelectorElement = document.querySelector('.language-selector');
   const target = event.target;
 
-  if (dropdownVisible.value && !dropdownElement.contains(target) && !event.currentTarget.contains(target)) {
+  if (dropdownVisible.value && !languageSelectorElement.contains(target)) {
     dropdownVisible.value = false;
   }
 };

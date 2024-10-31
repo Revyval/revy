@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "title": "Basic shirt",
+    "description": "A basic shirt with the Revyval logo on the back.",
+    "fabric": "Cotton",
+    "measurements": "S, M, L, XL",
+    "information": "Machine wash cold, do not bleach, do not tumble dry, iron low, do not dry clean",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  }
+]

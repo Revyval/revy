@@ -22,14 +22,13 @@ onMounted(() => {
 </script>
 
 <style>
-/* Estilo de layout general */
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la pantalla */
+  min-height: 100vh;
 }
 
 .router-view {
-  flex: 1; /* Expande el contenido principal para empujar el footer hacia abajo */
+  flex: 1;
 }
 </style>

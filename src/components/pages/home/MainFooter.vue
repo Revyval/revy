@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <img src="@/assets/cheese.png" alt="Cheese" class="cheese" />
+    <img src="../../../assets/png/cheese.png" alt="Cheese" class="cheese" />
     <p>© 2024 Revyval</p>
-    <a>Contact</a>
+    <router-link to="contact">Contact</router-link>
   </footer>
 </template>
 
@@ -13,6 +13,7 @@ footer {
   align-items: center;
   padding: 10px 20px;
   margin-top: auto;
+  z-index: 2;
 }
 
 .cheese {

@@ -1,5 +1,6 @@
 {
   "test": "test",
   "slogan": "Violently Beautiful",
-  "introduction": "Welcome to our comprehensive guide on internationalization (i18n) with Vue.js. This example will help you understand how to implement multilingual support in your Vue applications, making them accessible to a global audience. Follow along to learn best practices and tips for effective i18n integration."
+  "introduction1": "Welcome to The Revyval Wear project where we’re breathing new life into forgotten garments. We upcycle used blanks, reshaping them with fresh designs that are kind to people and the planet. We’re here to shake up the industry, moving away from mass consumerism to craft pieces with meaning, authenticity, and least environmental impact possible. Fast fashion may flood the market with copy pastes, but we’re reclaiming style with purpose and passion. Join us, wear your values, and help us redefine what it means to truly love your clothes.",
+  "introduction2": "‘A new wave, a new perspective, a fresh way of raising the middle finger to this rotten industry “Join us in challenging the fast-fashion machine by choosing unique clothes with a story, a soul, and a purpose. Let’s redefine fashion together, one revived piece at a time.”"
 }
