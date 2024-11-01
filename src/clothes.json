@@ -8,10 +8,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "rotten_tee/1.webp",
+      "rotten_tee/2.webp"
     ]
   },
   {
@@ -23,10 +21,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "basic_cropped/1.webp",
+      "basic_cropped/2.webp"
     ]
   },
   {
@@ -38,10 +34,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "cropped_star_tee/1.webp",
+      "cropped_star_tee/2.webp"
     ]
   },
   {
@@ -53,10 +47,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "basic_spiked/1.webp",
+      "basic_spiked/2.webp"
     ]
   },
   {
@@ -68,10 +60,7 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "umbro_tee/1.webp"
     ]
   },
   {
@@ -83,10 +72,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "cruzified_tee/1.webp",
+      "cruzified_tee/2.webp"
     ]
   },
   {
@@ -99,10 +86,7 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "starflow/1.webp"
     ]
   },
   {
@@ -115,10 +99,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "flowersquared_shirt/1.webp",
+      "flowersquared_shirt/2.webp"
     ]
   },
   {
@@ -131,10 +113,9 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "sk8_blue/1.webp",
+      "sk8_blue/2.webp",
+      "sk8_blue/3.webp"
     ]
   },
   {
@@ -147,10 +128,8 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "sk8_brown/1.webp",
+      "sk8_brown/2.webp"
     ]
   },
   {
@@ -163,10 +142,8 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "sk8_black/1.webp",
+      "sk8_black/2.webp"
     ]
   },
   {
@@ -179,10 +156,8 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "sk8_light_blue/1.webp",
+      "sk8_light_blue/2.webp"
     ]
   },
   {
@@ -195,10 +170,9 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "carhartt/1.webp",
+      "carhartt/2.webp",
+      "carhartt/3.webp"
     ]
   },
   {
@@ -210,10 +184,8 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "veracruz/1.webp",
+      "veracruz/2.webp"
     ]
   },
   {
@@ -225,10 +197,10 @@
     "information": "The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "blue_baggy/1.webp",
+      "blue_baggy/2.webp",
+      "blue_baggy/3.webp",
+      "blue_baggy/4.webp"
     ]
   },
   {
@@ -240,10 +212,8 @@
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "cargopants/1.webp",
+      "cargopants/2.webp"
     ]
   },
   {
@@ -256,10 +226,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "oversized_hoodie/1.webp",
+      "oversized_hoodie/2.webp"
     ]
   },
   {
@@ -272,10 +240,8 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "levis_sweater/1.webp",
+      "levis_sweater/2.webp"
     ]
   },
   {
@@ -287,10 +253,9 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "vest/1.webp",
+      "vest/2.webp",
+      "vest/3.webp"
     ]
   },
   {
@@ -303,12 +268,12 @@
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 20,
     "images": [
-      "overall/1.png",
-      "overall/2.png",
-      "overall/3.png",
-      "overall/4.png",
-      "overall/5.png",
-      "overall/6.png"
+      "overall/1.webp",
+      "overall/2.webp",
+      "overall/3.webp",
+      "overall/4.webp",
+      "overall/5.webp",
+      "overall/6.webp"
     ]
   },
   {
@@ -318,10 +283,7 @@
     "size": "One-sized",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "gaiter/1.webp"
     ]
   },
   {
@@ -332,10 +294,9 @@
     "fabric": "93% Polyester, 7% Elastane",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "ski/1.webp",
+      "ski/2.webp",
+      "ski/3.webp"
     ]
   },
   {
@@ -346,10 +307,8 @@
     "fabric": "100% Leather",
     "price": 20,
     "images": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png"
+      "belt/1.webp",
+      "belt/2.webp"
     ]
   }
 ]

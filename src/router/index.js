@@ -7,8 +7,8 @@ import CatalogProduct from "@/components/pages/CatalogProduct.vue";
 const routes = [
     {path: '/', component: Home},
     {path: '/home', component: Home},
-    {path: '/catalog', component: Catalog},
-    {path: '/catalog/:id', component: CatalogProduct},
+    {path: '/catalogue', component: Catalog},
+    {path: '/catalogue/:id', component: CatalogProduct},
     {path: '/contact', component: Contact}
 ]
 

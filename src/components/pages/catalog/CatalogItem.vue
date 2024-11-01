@@ -10,7 +10,7 @@ const props = defineProps({
 const router = useRouter();
 
 function goToProduct() {
-  router.push(`/catalog/${props.item.id}`);
+  router.push(`/catalogue/${props.item.id}`);
 }
 </script>
 

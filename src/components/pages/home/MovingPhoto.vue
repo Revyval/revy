@@ -8,7 +8,7 @@
         }"
       >
         <img
-            src="/home_bg.JPG?url"
+            src="/home_bg.webp"
             alt="Hero Background"
         />
         <div class="content">
@@ -74,7 +74,7 @@ export default {
 
 .content {
   position: absolute;
-  bottom: 145px;
+  bottom: 24%;
   right: 0;
   margin-right: 8%;
   z-index: 1;
@@ -96,7 +96,7 @@ export default {
 
 @media (max-width: 1100px) {
   .content {
-    bottom: 75px;
+    bottom: 65px;
     margin-right: 10%;
   }
 

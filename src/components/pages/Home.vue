@@ -3,7 +3,7 @@ import { useRouter } from 'vue-router';
 import MainHeader from "@/components/pages/home/MainHeader.vue";
 import CatalogButton from "@/components/pages/home/CatalogButton.vue";
 import Introduction from "@/components/pages/home/Introduction.vue";
-import ClothingCarrousel from "@/components/pages/home/ClothingCarrousel.vue";
+import ClothingCarrousel from "@/components/pages/home/ClothingCarousel.vue";
 import EnteringText from "@/components/animations/EnteringText.vue";
 import MainFooter from "@/components/pages/home/MainFooter.vue";
 import MovingPhoto from "@/components/pages/home/MovingPhoto.vue";
@@ -33,7 +33,7 @@ function goToCatalog() {
 
 <style scoped>
 .hero-spacer {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
 }
 

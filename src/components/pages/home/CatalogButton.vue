@@ -6,13 +6,13 @@ import CatalogButtonWrapper from "@/components/animations/CatalogButtonWrapper.v
 const router = useRouter();
 
 function goToCatalog() {
-  router.push('/catalog');
+  router.push('/catalogue');
 }
 </script>
 
 <template>
   <CatalogButtonWrapper class="button-wrapper" @click="goToCatalog">
-    <h3 class="catalog">Catalog</h3>
+    <h3 class="catalog">Catalogue</h3>
   </CatalogButtonWrapper>
 </template>
 

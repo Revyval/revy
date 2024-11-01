@@ -165,6 +165,9 @@ onMounted(() => {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    order: 1; /* Move thumbnails to the bottom */
+    margin-right: 0; /* Remove right margin */
+    margin-top: 20px;
   }
 
   .thumbnail-container {

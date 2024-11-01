@@ -60,7 +60,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--background-soft);
+  background-color: #2b1b17;
   z-index: -1;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;

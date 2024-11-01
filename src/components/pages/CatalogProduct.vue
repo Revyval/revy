@@ -18,7 +18,7 @@ onMounted(() => {
 });
 
 function goToCatalog() {
-  router.push('/catalog');
+  router.push('/catalogue');
 }
 </script>
 
@@ -27,7 +27,7 @@ function goToCatalog() {
   <div v-if="product" class="product-details">
     <div class="back-to-catalog" @click="goToCatalog">
       <ArrowLeft class="back-arrow"/>
-      <h1>Catalog</h1>
+      <h1>Catalogue</h1>
     </div>
     <div class="product-content">
       <ImageSelector class="image-selector" :images="product.images"/>
@@ -49,6 +49,11 @@ function goToCatalog() {
           <IncreasingNumber :number="product.price" class="product-price"/>
           €
         </div>
+
+        <div class="model-height">
+          <img src="/santa_guasoneada.png" alt="Model" class="model-image"/>
+          <p>This model is 1'80m tall</p>
+        </div>
       </div>
     </div>
   </div>
@@ -58,6 +63,8 @@ function goToCatalog() {
 .product-details {
   padding: 20px;
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .back-to-catalog {
@@ -82,12 +89,15 @@ function goToCatalog() {
   display: flex;
   align-items: flex-start;
   margin-top: 20px;
+  height: 100%;
 }
 
 .product-info {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  height: 100%;
+
 }
 
 .product-description, .product-fabric, .product-measurements, .product-size {
@@ -104,6 +114,7 @@ function goToCatalog() {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
+  flex-grow: 1;
 }
 
 .product-price {
@@ -131,5 +142,39 @@ function goToCatalog() {
 
 .label {
   color: black;
+}
+
+.model-height {
+  display: flex;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.model-image {
+  width: 25px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.model-height p {
+  align-self: flex-end;
+}
+
+@media (max-width: 600px) {
+  .product-title {
+    font-size: 1.8rem;
+  }
+
+  .product-description, .product-fabric, .product-measurements, .product-size {
+    font-size: 0.8rem;
+  }
+
+  .product-price-container {
+    font-size: 1rem;
+  }
+
+  .model-height p {
+    font-size: 0.6rem;
+  }
 }
 </style>

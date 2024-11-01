@@ -1,38 +1,19 @@
 <script setup>
 import EnteringText from "@/components/animations/EnteringText.vue";
 import Ropeman from "@/assets/png/ropeman.png";
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import {ref, onMounted} from 'vue';
 
 const isVisible = ref(false);
 const animatedDiv = ref(null);
 const randomXPosition = ref('50%');
-let observer;
 
 function generateRandomPosition() {
   const randomPercentage = Math.floor(Math.random() * 85) + 7.5;
   randomXPosition.value = `${randomPercentage}%`;
 }
 
-function handleIntersection(entries) {
-  entries.forEach((entry) => {
-    isVisible.value = entry.isIntersecting;
-  });
-}
-
 onMounted(() => {
-  if (animatedDiv.value) {
-    observer = new IntersectionObserver(handleIntersection, {
-      root: null,
-      threshold: 0.3,
-    });
-    observer.observe(animatedDiv.value);
-  }
-});
-
-onBeforeUnmount(() => {
-  if (observer && animatedDiv.value) {
-    observer.unobserve(animatedDiv.value);
-  }
+  isVisible.value = true;
 });
 </script>
 
@@ -44,7 +25,7 @@ onBeforeUnmount(() => {
           <EnteringText class="text">
             <slot></slot>
           </EnteringText>
-          <img :src="Ropeman" alt="Ropeman" class="ropeman" :style="{ left: randomXPosition }" />
+          <img :src="Ropeman" alt="Ropeman" class="ropeman" :style="{ left: randomXPosition }"/>
         </div>
       </div>
     </transition>
@@ -52,7 +33,6 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
-
 .content {
   background-color: var(--background-soft);
   padding: 10px;

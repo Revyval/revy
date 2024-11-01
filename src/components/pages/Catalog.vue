@@ -14,7 +14,7 @@ onMounted(() => {
 
 <template>
   <MainHeader/>
-  <EnteringText class="title">Catalog</EnteringText>
+  <EnteringText class="title">Catalogue</EnteringText>
   <div class="catalog">
     <div class="grid">
       <CatalogItem v-for="item in clothes" :key="item.title" :item="item" />
