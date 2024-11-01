@@ -44,18 +44,19 @@ function keepInfoVisible() {
 .info-container {
   position: relative;
   padding-top: 7px;
+  color: black;
 }
 
 .info-popup {
   position: absolute;
-  bottom: 100%; /* Position the popup above the icon */
-  left: 0;
+  top: 100%;
+  right: 0;
   background-color: white;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 250px;
+  width: 450px;
   z-index: 1000;
 }
 </style>

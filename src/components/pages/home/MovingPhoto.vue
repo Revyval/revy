@@ -8,12 +8,12 @@
         }"
       >
         <img
-            src="/home_bg.webp"
+            src="/home_bg.JPG?url"
             alt="Hero Background"
         />
-      </div>
-      <div class="content">
-        <slot></slot>
+        <div class="content">
+          <p v-html="$t('slogan')"></p>
+        </div>
       </div>
     </div>
   </div>
@@ -35,19 +35,19 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.offsetY = window.scrollY * -0.3
+      this.offsetY = window.scrollY * -0.4;
     }
   }
 }
 </script>
 
 <style scoped>
+@import url(https://fonts.bunny.net/css?family=lacquer:400);
 .hero-outer {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 90vh;
   z-index: 0;
 }
 
@@ -62,7 +62,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 120%;
+  height: 100vh;
   will-change: transform;
 }
 
@@ -73,8 +73,37 @@ export default {
 }
 
 .content {
-  position: relative;
-  height: 100%;
+  position: absolute;
+  bottom: 145px;
+  right: 0;
+  margin-right: 8%;
   z-index: 1;
+}
+
+.content p {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Lacquer', display, sans-serif;
+  transform: rotate(-5deg) rotateX(10deg) rotateY(-17deg) rotateZ(3deg);
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin-right: 5%;
+
+  }
+}
+
+@media (max-width: 1100px) {
+  .content {
+    bottom: 75px;
+    margin-right: 10%;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+    transform: rotateX(5deg) rotateY(-17deg) rotateZ(3deg);
+
+  }
 }
 </style>

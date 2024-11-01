@@ -36,5 +36,6 @@ h3 {
   width: 3px;
   background-color: gray;
   border-radius: 3px;
+  margin-left: -20px;
 }
 </style>

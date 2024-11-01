@@ -1,6 +1,6 @@
 import './assets/main.css'
 
-import {CarbonIconsVue, LogoInstagram32, LogoGithub32, LogoDiscord32, Information32, ArrowLeft32} from '@carbon/icons-vue';
+import {CarbonIconsVue, LogoInstagram32, LogoGithub32, LogoDiscord32, Information16, ArrowLeft32} from '@carbon/icons-vue';
 
 import enMessages from '../i18n/en_en.json'
 import esMessages from '../i18n/es_es.json'
@@ -34,7 +34,7 @@ createApp(App)
                 LogoInstagram: LogoInstagram32,
                 LogoGithub: LogoGithub32,
                 LogoDiscord: LogoDiscord32,
-                Information: Information32,
+                Information: Information16,
                 ArrowLeft: ArrowLeft32,
             }
         }

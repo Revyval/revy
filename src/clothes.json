@@ -1,11 +1,349 @@
 [
   {
     "id": "1",
-    "title": "Basic shirt",
-    "description": "A basic shirt with the Revyval logo on the back.",
-    "fabric": "Cotton",
-    "measurements": "S, M, L, XL",
-    "information": "Machine wash cold, do not bleach, do not tumble dry, iron low, do not dry clean",
+    "title": "Cropped Rotten Industry Tee",
+    "description": "A basic fit tee from the market that has been cropped, provided with a front embroider and Revyval backprint.",
+    "measurements": "Body - 53cm long, 46cm wide",
+    "size": "S/M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Cropped Basic Revyval Tee",
+    "description": "A basic fit tee from the market that has been cropped, provided with a front embroider and Revyval backprint.",
+    "measurements": "Body - 49cm long, 46cm wide",
+    "size": "S",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Cropped Star Stained Tee",
+    "description": "A basic fit tee from the market that has been cropped, provided with a front embroider and a Revyval star stained on the back.",
+    "measurements": "Body - 55cm long, 50cm wide",
+    "size": "S/M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Basic Spiked Orange Tee",
+    "description": "A basic fit tee from the market, with an embroider gargoyle and textile fabric lettering around it on the front and a Revyval backprint. The model in the picture has slightly tucked it in.",
+    "measurements": "Body - 70cm long, 49cm wide",
+    "size": "S/M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Circushow Umbro Tee",
+    "description": "A gem we found in the market, a retro vintage Umbro t-shirt that needed some more life and contrast to it, so we did exactly that.",
+    "measurements": "Body - 74cm long, 58'5cm wide",
+    "size": "L",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Crucified Grey T-shirt",
+    "description": "This is a basic fit t-shirt one member of our team donated in order to make a sample out of it in the future and this is the result. It has a Revyval backprint as well as an embroidery work on the front, which has been done with a special silver shiny thread. The paintjob on the sides is Acrylic and does not have as much adherence as textile paint so it will slowly peel off with time.",
+    "measurements": "Body - 69cm long, 54cm wide",
+    "size": "M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Rev Starred T-shirt",
+    "description": "This is an oversized fit t-shirt we stumbled upon at the market, unfortunately it had a couple of wholes so we decided to fix it, and cheer things up with a couple embroideries.",
+    "measurements": "Body - 69cm long, 62cm wide",
+    "fabric": "100% Cotton",
+    "size": "XL",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Flower Squared Shirt",
+    "description": "A basic squared The Galgo shirt, with a gargoyle embroider on the front side and a set of 3 flowers on the back of the boat neck.",
+    "measurements": "Body - 72cm long, 73cm wide",
+    "fabric": "100% Cotton",
+    "size": "XL",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Big Sk8 Jeans Blue",
+    "description": "These Big Sk8 Jeans are built different, considered by skaters to be very durable, and now they come with a slight hint of the Revyval grace.",
+    "measurements": "Leg - 106cm long, Hip - 40cm wide.",
+    "fabric": "80% Cotton, 20% Recycled Cotton",
+    "size": "M",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Big Sk8 Jeans Brown",
+    "description": "These Big Sk8 Jeans are built different, considered by skaters to be very durable, and now they come with a slight hint of the Revyval grace.",
+    "measurements": "Leg - 106cm long, Hip - 40cm wide.",
+    "fabric": "80% Cotton, 20% Recycled Cotton",
+    "size": "M",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Big Sk8 Jeans Black",
+    "description": "These Big Sk8 Jeans are built different, considered by skaters to be very durable, and now they come with a slight hint of the Revyval grace, a limited edition patch from the beloved NeckFace was proudly placed on the back.",
+    "measurements": "Leg - 106cm long, Hip - 40cm wide.",
+    "fabric": "80% Cotton, 20% Recycled Cotton",
+    "size": "M",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Big Sk8 Jeans Light Blue",
+    "description": "These Big Sk8 Jeans are built different, considered by skaters to be very durable, and now they come with a slight hint of the Revyval grace.",
+    "measurements": "Leg - 106cm long, Hip - 40cm wide.",
+    "fabric": "80% Cotton, 20% Recycled Cotton",
+    "size": "M",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Carhartt Carpinter Jeans",
+    "description": "These pants are 2 different colored carhartt models mashed together, with some backpockets brought to the front. These cargo pants are incredibly tough and durable.",
+    "measurements": "Leg - 106cm long, Hip - 41cm wide.",
+    "fabric": "100% Cotton (organic)",
+    "size": "(30x32) M/L",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "MiveraCruz Baggy Pants",
+    "description": "These are some black baggy pants from a close friend of ours who just wanted to donate the pants, since he had broken the backpocket on them. We fixed things up and moved the backpocket to the front leg, apart from embroidery details we threw in a limited edition patch from the beloved artist Neckface.",
+    "measurements": "Leg - 105cm long, Hip - 39cm wide.",
+    "size": "S",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Big Blue Stepper Baggy Jeans",
+    "description": "These jeans represent The Revyval Heritage very well, a balance between grace and aggression, softness and strength. There are multiple Revyval embroideries on fabric that have been applied to the pants by hand, as well as the handpainted blue bottoms ready to get messy.",
+    "measurements": "Leg - 104cm long, Hip - 39cm wide.",
+    "size": "M",
+    "information": "The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Spiked Red Camouflage Cargo Pants",
+    "description": "These cargo pants have been provided with a revyval fabric patch imported by hand, some hand painted details, and a red hairy thread surrounding the edge of the front pockets.",
+    "measurements": "Leg - 107cm long, Hip - 42cm wide.",
+    "size": "M/L",
+    "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Oversized Seahorse Hoodie",
+    "description": "This is an oversized comfy hoodie with a hint of Revyval.",
+    "measurements": "Body - 66cm long, 65cm wide.",
+    "fabric": "65% Cotton (organic), 35% Polyester (recycled)",
+    "size": "M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Levi’s 70’s Rev Jumper",
+    "description": "A basic Levi’s Jumper retrieved from the Vintage Stores in Amsterdam that has been given extra spice with embroidery.",
+    "measurements": "Body - 65cm long, 58cm wide.",
+    "fabric": "50% Cotton, 50% Polyester",
+    "size": "M (42-44 Euro)",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "StaySafe Vest",
+    "description": "A plain off white(color) vest that has been provided with some embroidery on the front of it and a textile stained Revyval star on the back.",
+    "measurements": "Body - 68cm long, 52'5cm wide.",
+    "size": "M",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Casual Active Tsunagi Overall",
+    "description": "The Casual Active Tsunagi (C.A.T) overall was found at a Vintage Store in Madrid, it had a very big hole around the knee area but knowing the quality of the japanese cotton fabric and potential for decoration, our designer could not keep his hands away from working on it. The hole was fixed and thereafter gave the rest of it a nice ‘lil glow up’.",
+    "size": "M/L",
+    "measurements": "Leg - 101cm long, Hip - 41cm wide, Body - 51cm long, 56cm wide.",
+    "fabric": "100% Japanese Cotton",
+    "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
+    "price": 20,
+    "images": [
+      "overall/1.png",
+      "overall/2.png",
+      "overall/3.png",
+      "overall/4.png",
+      "overall/5.png",
+      "overall/6.png"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Hang In There Neck Gaiter",
+    "description": "A subtle hunter’s Solognac neckgaiter to warm you up during the cold days, with a hangman embroider detail added to it.",
+    "size": "One-sized",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Spiked Orange Nikey SkiMask",
+    "description": "If you are going to rob someone, do it with style…",
+    "size": "One-sized",
+    "fabric": "93% Polyester, 7% Elastane",
+    "price": 20,
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Bloodmoon Cowboy Belt",
+    "description": "A handmade black leather belt with a Monster Chopper belt buckle, some red & black ornaments, and a hint of hairy thread peaking out. You will be the most recognisable Vaquero in town.",
+    "size": "One-sized",
+    "fabric": "100% Leather",
     "price": 20,
     "images": [
       "1.png",

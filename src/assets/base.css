@@ -2,7 +2,7 @@
 /* semantic color variables for this project */
 :root {
   --color-background: #F8F4E3;
-  --background-soft: #846075;
+  --background-soft: #941B0C;
   --background-lighter: #4A6C6F;
 
   --color-text: var(--pantone-black);
@@ -37,4 +37,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }

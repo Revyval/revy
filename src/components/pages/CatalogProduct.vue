@@ -32,13 +32,19 @@ function goToCatalog() {
     <div class="product-content">
       <ImageSelector class="image-selector" :images="product.images"/>
       <div class="product-info">
-        <div class="product-header">
-          <EnteringText class="product-title">{{ product.title }}</EnteringText>
+        <EnteringText class="product-title">{{ product.title }}</EnteringText>
+
+        <p class="product-description">{{ product.description }}</p>
+
+        <hr class="separator">
+
+        <p v-if="product.size" class="product-size"><strong class="label">Size:</strong> {{ product.size }}</p>
+        <p v-if="product.fabric" class="product-fabric"><strong class="label">Fabric:</strong> {{ product.fabric }}</p>
+        <div class="product-measurements">
+          <p v-if="product.measurements"><strong class="label">Measurements:</strong> {{ product.measurements }}</p>
           <MeasurementsInfo :item="product"/>
         </div>
-        <p class="product-description">{{ product.description }}</p>
-        <p v-if="product.fabric" class="product-fabric">Fabric: {{ product.fabric }}</p>
-        <p v-if="product.measurements" class="product-measurements">Measurements: {{ product.measurements }}</p>
+
         <div class="product-price-container">
           <IncreasingNumber :number="product.price" class="product-price"/>
           €
@@ -51,7 +57,7 @@ function goToCatalog() {
 <style scoped>
 .product-details {
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .back-to-catalog {
@@ -62,6 +68,9 @@ function goToCatalog() {
 
 .product-title {
   font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .back-arrow {
@@ -81,26 +90,46 @@ function goToCatalog() {
   margin-left: 30px;
 }
 
-.product-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.product-description, .product-fabric, .product-measurements {
+.product-description, .product-fabric, .product-measurements, .product-size {
   font-size: 1rem;
   color: #666;
   margin-bottom: 10px;
+}
+
+.product-description {
+  text-align: justify;
 }
 
 .product-price-container {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-  margin-top: 20px;
 }
 
 .product-price {
   margin-right: 5px;
+}
+
+.product-measurements {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.product-measurements p {
+  margin-right: 4px;
+}
+
+.separator {
+  margin: 20px auto;
+  border: 0;
+  border-top: 4px solid #ccc;
+  border-radius: 4px;
+  width: 98%;
+}
+
+.label {
+  color: black;
 }
 </style>
