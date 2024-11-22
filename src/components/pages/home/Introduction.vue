@@ -1,7 +1,8 @@
 <script setup>
-import { useAttrs } from 'vue';
+import { defineProps, useAttrs } from 'vue';
 import EnteringText from "@/components/animations/EnteringText.vue";
 
+const props = defineProps({});
 const attrs = useAttrs();
 </script>
 
@@ -41,11 +42,5 @@ h3 {
   background-color: gray;
   border-radius: 3px;
   margin-left: -20px;
-}
-
-@media (max-width: 600px) {
-  .quote::before {
-    margin-left: 0;
-  }
 }
 </style>

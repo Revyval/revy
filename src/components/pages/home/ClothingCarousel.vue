@@ -1,56 +1,68 @@
 <template>
   <div>
-    <div class="carousel" @mouseover="stopScroll" @mouseleave="startScroll">
-      <div class="carousel-track" :style="{ transform: `translateX(${-scrollPosition}px)` }">
+    <div class="carousel-wrapper">
+      <Flicking
+          ref="flickingTop"
+          :options="{ circular: true, align: 'center' }"
+          :plugins="forwardsPlugins"
+          class="carousel"
+          @ready="onFlickingReady"
+      >
         <div
+            class="panel"
             v-for="(item, index) in displayItemsTop"
             :key="index"
-            class="carousel-item"
             @click="navigateToCatalog(item.id)"
         >
-          <img :src="item.image" :alt="item.title" />
+          <img :src="item.image" :alt="item.title" class="carousel-image" draggable="false" />
         </div>
-      </div>
+      </Flicking>
     </div>
-    <div class="carousel" @mouseover="stopScrollReverse" @mouseleave="startScrollReverse">
-      <div class="carousel-track" :style="{ transform: `translateX(${-scrollPositionReverse}px)` }">
+    <div class="carousel-wrapper">
+      <Flicking
+          ref="flickingBottom"
+          :options="{ circular: true, align: 'center' }"
+          :plugins="backwardsPlugins"
+          class="carousel"
+          @ready="onFlickingReady"
+      >
         <div
+            class="panel"
             v-for="(item, index) in displayItemsBottom"
             :key="index"
-            class="carousel-item"
-            @click="navigateToCatalog(item.id)"
+            @click.stop="navigateToCatalog(item.id)"
         >
-          <img :src="item.image" :alt="item.title" />
+          <img :src="item.image" :alt="item.title" class="carousel-image" draggable="false" />
         </div>
-      </div>
+      </Flicking>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, computed } from 'vue';
+import { ref, onMounted, computed } from 'vue';
+import Flicking from '@egjs/vue3-flicking';
+import '@egjs/vue3-flicking/dist/flicking.css';
+import { AutoPlay } from '@egjs/flicking-plugins';
 import { useRouter } from 'vue-router';
 import clothes from '@/clothes.json';
 
 const router = useRouter();
 const clothingItems = ref([]);
-
+const flickingTop = ref(null);
+const flickingBottom = ref(null);
+const forwardsPlugins = [new AutoPlay({ duration: 1000, direction: 'NEXT', stopOnHover: false, animationDuration: 4000})];
+const backwardsPlugins = [new AutoPlay({ duration: 1000, direction: 'PREV', stopOnHover: false, animationDuration: 4000})];
 onMounted(() => {
   clothingItems.value = clothes.map(item => {
     const image = item.images.find(img => img.endsWith('1.webp'));
     return {
       id: item.id,
       title: item.title,
-      image: image ? `/clothes/images/${image}` : ''
+      image: image ? `https://revyval.store/images/${image}` : ''
     };
   });
-  startScroll();
-  startScrollReverse();
 });
-
-const itemWidth = 220; // 200px width + 20px margin
-const totalWidthTop = computed(() => displayItemsTop.value.length * itemWidth);
-const totalWidthBottom = computed(() => displayItemsBottom.value.length * itemWidth);
 
 const displayItemsTop = computed(() => clothingItems.value.filter(item => item.id < 9 || item.id > 16));
 const displayItemsBottom = computed(() => {
@@ -58,78 +70,57 @@ const displayItemsBottom = computed(() => {
   return [...items, ...items, ...items, ...items];
 });
 
-const scrollPosition = ref(0);
-const scrollPositionReverse = ref(0);
-let scrollInterval = null;
-let scrollIntervalReverse = null;
-
-const startScroll = () => {
-  scrollInterval = setInterval(() => {
-    scrollPosition.value += 2;
-    if (scrollPosition.value >= totalWidthTop.value) {
-      scrollPosition.value = 0;
-    }
-  }, 50);
-};
-
-const stopScroll = () => {
-  clearInterval(scrollInterval);
-};
-
-const startScrollReverse = () => {
-  scrollPositionReverse.value = totalWidthBottom.value / 2;
-  scrollIntervalReverse = setInterval(() => {
-    scrollPositionReverse.value -= 2;
-    if (scrollPositionReverse.value <= 0) {
-      scrollPositionReverse.value = totalWidthBottom.value / 2;
-    }
-  }, 50);
-};
-
-const stopScrollReverse = () => {
-  clearInterval(scrollIntervalReverse);
+const onFlickingReady = () => {
+  setTimeout(() => {
+    flickingTop.value.align = 'prev';
+    flickingBottom.value.align = 'prev';
+  }, 200);
 };
 
 const navigateToCatalog = (id) => {
   router.push(`/catalogue/${id}`);
 };
-
-onUnmounted(() => {
-  stopScroll();
-  stopScrollReverse();
-});
 </script>
 
 <style scoped>
-.carousel {
+.carousel-wrapper {
   overflow: hidden;
-  width: 100%;
+  position: relative;
   margin-bottom: 20px;
 }
 
-.carousel-track {
-  display: flex;
-  transition: transform 0.1s linear;
+.carousel {
+  width: 100%;
+  white-space: nowrap;
 }
 
-.carousel-item {
-  min-width: 200px;
-  margin: 0 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
+.panel {
+  display: inline-block;
+  height: min(70vw, 30vh);
+  margin: 0 2px;
+}
+
+.panel:hover {
+  transform: scale(1.03);
   cursor: pointer;
 }
 
-.carousel-item:hover {
-  transform: scale(1.05);
-}
-
-.carousel-item:active {
-  transform: scale(0.95);
-}
-
-.carousel-item img {
+.carousel-image {
+  object-fit: contain;
+  image-rendering: pixelated;
+  user-select: none;
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .panel {
+    width: 100vw;
+  }
+
+  .carousel-image {
+    width: 100vw;
+    height: 100%;
+  }
 }
 </style>

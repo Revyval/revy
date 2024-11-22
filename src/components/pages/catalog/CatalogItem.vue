@@ -16,7 +16,7 @@ function goToProduct() {
 
 <template>
   <div class="grid-item" @click="goToProduct">
-    <img :src="`/clothes/images/${props.item.images[0]}`" :alt="props.item.title" class="item-image"/>
+    <img :src="`https://revyval.store/images/${props.item.images[0]}`" :alt="props.item.title" class="item-image"/>
     <h3 class="item-title">{{ item.title }}</h3>
     <div class="item-price-container">
       <IncreasingNumber :number="item.price" :decimalPlaces="2" class="item-price"/>

@@ -24,7 +24,7 @@ function handleImageLoad(image) {
 onMounted(() => {
   props.images.forEach(image => {
     const img = new Image();
-    img.src = `/clothes/images/${image}`;
+    img.src = `https://revyval.store/images/${image}`;
     img.onload = () => handleImageLoad(image);
   });
 
@@ -48,7 +48,7 @@ onMounted(() => {
             class="thumbnail-container"
         >
           <img
-              :src="`/clothes/images/${image}`"
+              :src="`https://revyval.store/images/${image}`"
               :class="['thumbnail-image', { selected: mainImage === image }]"
               @click="selectImage(image)"
               :alt="image"
@@ -69,7 +69,7 @@ onMounted(() => {
         <!-- Main image, hidden while loading animation plays -->
         <img
             v-show="!isLoading"
-            :src="`/clothes/images/${mainImage}`"
+            :src="`https://revyval.store/images/${mainImage}`"
             class="main-image"
             :alt="mainImage"
         />
