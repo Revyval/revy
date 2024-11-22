@@ -96,17 +96,25 @@ function setHoveredPromo(promo) {
 }
 
 .purchase-button {
-  background-color: #007bff;
+  background-color: var(--color-header);
   color: white;
   border: none;
-  padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .purchase-button:hover {
   background-color: #0056b3;
+}
+
+.purchase-button:hover {
+  background-color: var(--background-soft);
 }
 
 .modal-overlay {
@@ -195,7 +203,7 @@ function setHoveredPromo(promo) {
   position: absolute;
   top: 100%;
   left: 0;
-  transform: translate(0, calc(-100% - 42px)); /* Centers it and adjusts for any height difference */
+  transform: translate(0, calc(-100% - 49px)); /* Centers it and adjusts for any height difference */
   background: #c0c0c0;
   padding: 16px;
   border-radius: 5px;
@@ -216,7 +224,7 @@ function setHoveredPromo(promo) {
 .close-button {
   margin-top: 20px;
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color: var(--color-header);
   color: white;
   border: none;
   border-radius: 5px;
@@ -224,6 +232,6 @@ function setHoveredPromo(promo) {
 }
 
 .close-button:hover {
-  background-color: #0056b3;
+  background-color: var(--background-soft);
 }
 </style>

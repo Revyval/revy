@@ -7,7 +7,7 @@
         {{ version }}
       </a>
     </p>
-    <p>© 2024 Revyval</p>
+    <p>©2024 Revyval</p>
     <a href="#" @click.prevent="openModal">Contact</a>
   </footer>
 
@@ -58,15 +58,17 @@ const goToInstagram = () => {
 
 <style scoped>
 footer {
-  gap: 20px;
+  gap: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 10px 20px;
-  margin-top: auto;
   z-index: 2;
+  margin-top: auto;
 }
 
 .cheese {
+  margin-left: -28px;
   margin-right: -30px;
   width: 100px;
 }
@@ -75,10 +77,6 @@ a {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
-}
-
-.version-text a {
-  margin-left: -4px;
 }
 
 .modal-overlay {
@@ -91,7 +89,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure the modal is on top of all items */
+  z-index: 9999;
 }
 
 .modal {
@@ -105,13 +103,19 @@ a {
 
 .close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: -4px;
+  right: 4px;
   background: none;
   border: none;
   font-size: 20px;
   cursor: pointer;
   font-family: inherit;
+  color: black;
+}
+
+.close-button:hover {
+  color: black;
+  background-color: transparent;
 }
 
 .header {
@@ -137,7 +141,7 @@ a {
 
 .email-container button {
   font-family: inherit;
-  background-color: var(--background-soft);
+  background-color: var(--color-header);
   color: white;
   border: none;
   padding: 5px 10px;
@@ -147,7 +151,7 @@ a {
 }
 
 .email-container button:hover {
-  background-color: #0056b3;
+  background-color: var(--background-soft);
 }
 
 .email-container strong {
@@ -156,5 +160,9 @@ a {
 
 .info {
   margin-top: 20px;
+}
+
+.version-link {
+  margin-left: -4px;
 }
 </style>

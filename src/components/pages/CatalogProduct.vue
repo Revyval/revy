@@ -48,21 +48,24 @@ function formatPrice(price) {
         <div class="product-measurements">
           <p v-if="product.measurements"><strong class="label">Measurements:</strong> {{ product.measurements }}</p>
           <MeasurementsInfo :item="product"/>
-          <PurchaseButton class="purchase-button"/>
         </div>
 
         <div class="product-price-container">
           <div style="display: flex; align-items: center;">
-            <IncreasingNumber :number="formatPrice(product.price)" :decimalPlaces="2" class="product-price"/>
+            <IncreasingNumber :number="product.price" :decimalPlaces="2" class="product-price"/>
             €
           </div>
           <p class="discount-disclaimer">({{ formatPrice(product.price * 0.85) }}€ with Special First Drop Discount)</p>
         </div>
 
-        <div class="model-height">
-          <img src="/santa_guasoneada.png" alt="Model" class="model-image"/>
-          <p>This model is 1'80m tall</p>
+        <div class="model-purchase-container">
+          <div class="model-height">
+            <img src="/santa_guasoneada.png" alt="Model" class="model-image"/>
+            <p>This model is 1'80m tall</p>
+          </div>
+          <PurchaseButton class="purchase-button"/>
         </div>
+
       </div>
     </div>
   </div>
@@ -152,10 +155,20 @@ function formatPrice(price) {
   color: black;
 }
 
+.model-purchase-container {
+  display: flex;
+  height: 100%;
+  margin-top: 65px;
+}
+
+.purchase-button {
+  margin-top: auto;
+  margin-right: 4px;
+}
+
 .model-height {
   display: flex;
   align-items: center;
-  margin-top: 65px;
 }
 
 .model-image {

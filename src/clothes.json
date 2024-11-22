@@ -6,7 +6,7 @@
     "measurements": "Body - 53cm long, 46cm wide",
     "size": "S/M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 23.10,
+    "price": 23.1,
     "images": [
       "rotten_tee/1.webp",
       "rotten_tee/2.webp"
@@ -19,7 +19,7 @@
     "measurements": "Body - 49cm long, 46cm wide",
     "size": "S",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 23.10,
+    "price": 23.1,
     "images": [
       "basic_cropped/1.webp",
       "basic_cropped/2.webp"
@@ -32,7 +32,7 @@
     "measurements": "Body - 55cm long, 50cm wide",
     "size": "S/M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 25.40,
+    "price": 25.4,
     "images": [
       "cropped_star_tee/1.webp",
       "cropped_star_tee/2.webp"
@@ -45,7 +45,7 @@
     "measurements": "Body - 70cm long, 49cm wide",
     "size": "S/M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 23.60,
+    "price": 23.6,
     "images": [
       "basic_spiked/1.webp",
       "basic_spiked/2.webp"
@@ -58,7 +58,7 @@
     "measurements": "Body - 74cm long, 58'5cm wide",
     "size": "L",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 29.30,
+    "price": 29.3,
     "images": [
       "umbro_tee/1.webp"
     ]
@@ -84,7 +84,7 @@
     "fabric": "100% Cotton",
     "size": "XL",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 24.30,
+    "price": 24.3,
     "images": [
       "starflow/1.webp"
     ]
@@ -111,7 +111,7 @@
     "fabric": "80% Cotton, 20% Recycled Cotton",
     "size": "M",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 62.80,
+    "price": 62.8,
     "images": [
       "sk8_blue/1.webp",
       "sk8_blue/2.webp",
@@ -126,7 +126,7 @@
     "fabric": "80% Cotton, 20% Recycled Cotton",
     "size": "M",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 62.80,
+    "price": 62.8,
     "images": [
       "sk8_brown/1.webp",
       "sk8_brown/2.webp"
@@ -140,7 +140,7 @@
     "fabric": "80% Cotton, 20% Recycled Cotton",
     "size": "M",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 62.80,
+    "price": 62.8,
     "images": [
       "sk8_black/1.webp",
       "sk8_black/2.webp"
@@ -154,7 +154,7 @@
     "fabric": "80% Cotton, 20% Recycled Cotton",
     "size": "M",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 62.80,
+    "price": 62.8,
     "images": [
       "sk8_light_blue/1.webp",
       "sk8_light_blue/2.webp"
@@ -168,7 +168,7 @@
     "fabric": "100% Cotton (organic)",
     "size": "(30x32) M/L",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 98.90,
+    "price": 98.9,
     "images": [
       "carhartt/1.webp",
       "carhartt/2.webp",
@@ -210,7 +210,7 @@
     "measurements": "Leg - 107cm long, Hip - 42cm wide.",
     "size": "M/L",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
-    "price": 57.40,
+    "price": 57.4,
     "images": [
       "cargopants/1.webp",
       "cargopants/2.webp"
@@ -224,7 +224,7 @@
     "fabric": "65% Cotton (organic), 35% Polyester (recycled)",
     "size": "M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 56.10,
+    "price": 56.1,
     "images": [
       "oversized_hoodie/1.webp",
       "oversized_hoodie/2.webp"
@@ -238,7 +238,7 @@
     "fabric": "50% Cotton, 50% Polyester",
     "size": "M (42-44 Euro)",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 40.60,
+    "price": 40.6,
     "images": [
       "levis_sweater/1.webp",
       "levis_sweater/2.webp"
@@ -251,7 +251,7 @@
     "measurements": "Body - 68cm long, 52'5cm wide.",
     "size": "M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 57.30,
+    "price": 57.3,
     "images": [
       "vest/1.webp",
       "vest/2.webp",
@@ -266,7 +266,7 @@
     "measurements": "Leg - 101cm long, Hip - 41cm wide, Body - 51cm long, 56cm wide.",
     "fabric": "100% Japanese Cotton",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
-    "price": 109.80,
+    "price": 109.8,
     "images": [
       "overall/1.webp",
       "overall/2.webp",
@@ -281,7 +281,7 @@
     "title": "Hang In There Neck Gaiter",
     "description": "A subtle hunter’s Solognac neckgaiter to warm you up during the cold days, with a hangman embroider detail added to it.",
     "size": "One-sized",
-    "price": 11.50,
+    "price": 11.5,
     "images": [
       "gaiter/1.webp"
     ]

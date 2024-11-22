@@ -81,6 +81,13 @@ onMounted(() => {
 </template>
 
 <style scoped>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 .image-selector-wrapper {
   width: 100%;
   display: flex;
@@ -107,7 +114,7 @@ onMounted(() => {
 
 .main-container {
   flex-grow: 1;
-  min-width: 0; /* Prevents flex item from overflowing */
+  min-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,6 +156,10 @@ onMounted(() => {
 }
 
 @media (max-width: 756px) {
+  .main-image {
+    width: 100vw;
+  }
+
   .image-selector {
     flex-direction: column;
     align-items: center;
@@ -157,6 +168,7 @@ onMounted(() => {
   .main-container {
     width: 100%;
     margin-bottom: 20px;
+    justify-content: center;
   }
 
   .thumbnail-images {

@@ -84,7 +84,7 @@ const navigateToCatalog = (id) => {
 const handlePanelClick = (id) => {
   setTimeout(() => {
     navigateToCatalog(id);
-  }, 300); // Delay to ensure drag event is not mistaken for click
+  }, 200); // Delay to ensure drag event is not mistaken for click
 };
 </script>
 

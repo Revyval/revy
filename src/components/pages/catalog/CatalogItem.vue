@@ -10,6 +10,7 @@ const props = defineProps({
 const router = useRouter();
 
 function goToProduct() {
+  console.log(props.item.id);
   router.push(`/catalogue/${props.item.id}`);
 }
 </script>
@@ -46,6 +47,7 @@ function goToProduct() {
 .item-title {
   font-size: 1.2rem;
   margin: 10px 0;
+  text-align: center;
 }
 
 .item-price-container {
