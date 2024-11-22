@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import {ref, onMounted} from 'vue';
 
 const props = defineProps({
   images: Array
@@ -8,7 +8,6 @@ const props = defineProps({
 const mainImage = ref(props.images[0]);
 const loadedImages = ref(new Set());
 const isLoading = ref(true);
-const loadingComplete = ref(false);
 
 function selectImage(image) {
   mainImage.value = image;
@@ -16,8 +15,10 @@ function selectImage(image) {
 
 function handleImageLoad(image) {
   loadedImages.value.add(image);
-  if (loadedImages.value.size === props.images.length && loadingComplete.value) {
-    isLoading.value = false;
+  if (loadedImages.value.size === props.images.length) {
+    setTimeout(() => {
+      isLoading.value = false;
+    }, 2000); // Ensure the loading animation is shown for at least 1 second
   }
 }
 
@@ -26,10 +27,11 @@ onMounted(() => {
     const img = new Image();
     img.src = `https://revyval.store/images/${image}`;
     img.onload = () => handleImageLoad(image);
+    img.onerror = () => handleImageLoad(image); // Handle error case
   });
 
+  // Ensure the loading animation is shown for at least 1 second
   setTimeout(() => {
-    loadingComplete.value = true;
     if (loadedImages.value.size === props.images.length) {
       isLoading.value = false;
     }
@@ -78,7 +80,7 @@ onMounted(() => {
   </div>
 </template>
 
-<style>
+<style scoped>
 .image-selector-wrapper {
   width: 100%;
   display: flex;

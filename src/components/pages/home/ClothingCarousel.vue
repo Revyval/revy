@@ -12,7 +12,7 @@
             class="panel"
             v-for="(item, index) in displayItemsTop"
             :key="index"
-            @click="navigateToCatalog(item.id)"
+            @click="handlePanelClick(item.id)"
         >
           <img :src="item.image" :alt="item.title" class="carousel-image" draggable="false" />
         </div>
@@ -30,7 +30,7 @@
             class="panel"
             v-for="(item, index) in displayItemsBottom"
             :key="index"
-            @click.stop="navigateToCatalog(item.id)"
+            @click="handlePanelClick(item.id)"
         >
           <img :src="item.image" :alt="item.title" class="carousel-image" draggable="false" />
         </div>
@@ -80,6 +80,12 @@ const onFlickingReady = () => {
 const navigateToCatalog = (id) => {
   router.push(`/catalogue/${id}`);
 };
+
+const handlePanelClick = (id) => {
+  setTimeout(() => {
+    navigateToCatalog(id);
+  }, 300); // Delay to ensure drag event is not mistaken for click
+};
 </script>
 
 <style scoped>
@@ -111,16 +117,5 @@ const navigateToCatalog = (id) => {
   user-select: none;
   width: 100%;
   height: 100%;
-}
-
-@media (max-width: 768px) {
-  .panel {
-    width: 100vw;
-  }
-
-  .carousel-image {
-    width: 100vw;
-    height: 100%;
-  }
 }
 </style>
