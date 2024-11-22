@@ -1,11 +1,15 @@
 <script setup>
-import { ref, reactive, watch } from 'vue'
+import {ref, reactive, watch} from 'vue'
 import gsap from 'gsap'
 
 const props = defineProps({
   number: {
     type: Number,
     required: true
+  },
+  decimalPlaces: {
+    type: Number,
+    default: 0
   }
 })
 
@@ -24,7 +28,7 @@ watch(
 
 <template>
   <div class="demo">
-    <p class="big-number">{{ tweened.number.toFixed(0) }}</p>
+    <p class="big-number">{{ tweened.number.toFixed(props.decimalPlaces) }}</p>
   </div>
 </template>
 

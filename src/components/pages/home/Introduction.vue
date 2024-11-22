@@ -1,16 +1,20 @@
 <script setup>
-
+import { useAttrs } from 'vue';
 import EnteringText from "@/components/animations/EnteringText.vue";
+
+const attrs = useAttrs();
 </script>
 
 <template>
-  <h3>
-    {{ $t('introduction1') }}
-  </h3>
-  <br/>
-  <h3 class="quote">
-    {{ $t('introduction2') }}
-  </h3>
+  <div v-bind="attrs">
+    <h3>
+      {{ $t('introduction1') }}
+    </h3>
+    <br/>
+    <h3 class="quote">
+      {{ $t('introduction2') }}
+    </h3>
+  </div>
 </template>
 
 <style scoped>
@@ -37,5 +41,11 @@ h3 {
   background-color: gray;
   border-radius: 3px;
   margin-left: -20px;
+}
+
+@media (max-width: 600px) {
+  .quote::before {
+    margin-left: 0;
+  }
 }
 </style>

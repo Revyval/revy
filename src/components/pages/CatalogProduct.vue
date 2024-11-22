@@ -7,6 +7,7 @@ import clothes from '@/clothes.json';
 import MainHeader from "@/components/pages/home/MainHeader.vue";
 import EnteringText from "@/components/animations/EnteringText.vue";
 import ImageSelector from "@/components/pages/catalog_product/ImageSelector.vue";
+import PurchaseButton from "@/components/pages/catalog_product/PurchaseButton.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -19,6 +20,10 @@ onMounted(() => {
 
 function goToCatalog() {
   router.push('/catalogue');
+}
+
+function formatPrice(price) {
+  return price.toFixed(2);
 }
 </script>
 
@@ -43,11 +48,15 @@ function goToCatalog() {
         <div class="product-measurements">
           <p v-if="product.measurements"><strong class="label">Measurements:</strong> {{ product.measurements }}</p>
           <MeasurementsInfo :item="product"/>
+          <PurchaseButton class="purchase-button"/>
         </div>
 
         <div class="product-price-container">
-          <IncreasingNumber :number="product.price" class="product-price"/>
-          €
+          <div style="display: flex; align-items: center;">
+            <IncreasingNumber :number="formatPrice(product.price)" :decimalPlaces="2" class="product-price"/>
+            €
+          </div>
+          <p class="discount-disclaimer">({{ formatPrice(product.price * 0.85) }}€ with Special First Drop Discount)</p>
         </div>
 
         <div class="model-height">
@@ -97,7 +106,6 @@ function goToCatalog() {
   flex-direction: column;
   margin-left: 30px;
   height: 100%;
-
 }
 
 .product-description, .product-fabric, .product-measurements, .product-size {
@@ -160,6 +168,16 @@ function goToCatalog() {
   align-self: flex-end;
 }
 
+.purchase-button {
+  margin-left: auto;
+}
+
+.discount-disclaimer {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 15px;
+}
+
 @media (max-width: 600px) {
   .product-title {
     font-size: 1.8rem;
@@ -175,6 +193,10 @@ function goToCatalog() {
 
   .model-height p {
     font-size: 0.6rem;
+  }
+
+  .product-content {
+    flex-direction: column;
   }
 }
 </style>

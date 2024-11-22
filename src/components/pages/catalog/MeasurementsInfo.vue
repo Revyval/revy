@@ -45,6 +45,7 @@ function keepInfoVisible() {
   position: relative;
   padding-top: 7px;
   color: black;
+  margin-right: 12px;
 }
 
 .info-popup {
@@ -58,5 +59,12 @@ function keepInfoVisible() {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 450px;
   z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .info-popup {
+    right: -900%;
+    width: 350px;
+  }
 }
 </style>

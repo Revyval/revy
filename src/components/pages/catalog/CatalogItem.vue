@@ -19,7 +19,7 @@ function goToProduct() {
     <img :src="`/clothes/images/${props.item.images[0]}`" :alt="props.item.title" class="item-image"/>
     <h3 class="item-title">{{ item.title }}</h3>
     <div class="item-price-container">
-      <IncreasingNumber :number="item.price" class="item-price"/>
+      <IncreasingNumber :number="item.price" :decimalPlaces="2" class="item-price"/>
       €
     </div>
   </div>

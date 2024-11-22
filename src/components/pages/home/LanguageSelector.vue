@@ -97,12 +97,9 @@ onUnmounted(() => {
   display: inline-block;
 }
 
-h3:hover {
-  color: var(--background-lighter) !important;
-}
 
 h3 {
-  color: var(--color-text);
+  color: white !important;
   cursor: pointer;
   user-select: none;
   text-align: center;
@@ -152,7 +149,6 @@ h3 {
 }
 
 .language-selector h3:hover {
-  color: var(--background-lighter) !important;
   animation: scale-up 0.3s forwards;
 }
 </style>

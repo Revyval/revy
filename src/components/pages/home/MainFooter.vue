@@ -1,6 +1,12 @@
 <template>
   <footer>
     <img src="../../../assets/png/cheese.png" alt="Cheese" class="cheese" />
+    <p class="version-text">
+      revy@
+      <a :href="`https://github.com/revyval/revy`" target="_blank" class="version-link">
+        {{ version }}
+      </a>
+    </p>
     <p>© 2024 Revyval</p>
     <a href="#" @click.prevent="openModal">Contact</a>
   </footer>
@@ -26,6 +32,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import pkg from '../../../../package.json';
+
+const version = pkg.version;
 
 const isModalOpen = ref(false);
 
@@ -66,6 +75,10 @@ a {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.version-text a {
+  margin-left: -4px;
 }
 
 .modal-overlay {

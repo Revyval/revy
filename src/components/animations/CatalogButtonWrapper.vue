@@ -22,9 +22,7 @@ onMounted(() => {
     <transition name="fade-slide">
       <div v-show="isVisible">
         <div class="content" @mouseenter="generateRandomPosition">
-          <EnteringText class="text">
-            <slot></slot>
-          </EnteringText>
+          <slot></slot>
           <img :src="Ropeman" alt="Ropeman" class="ropeman" :style="{ left: randomXPosition }"/>
         </div>
       </div>
@@ -46,10 +44,6 @@ onMounted(() => {
 
 .content:hover {
   background-color: var(--background-lighter);
-}
-
-.text {
-  white-space: nowrap;
 }
 
 .ropeman {
