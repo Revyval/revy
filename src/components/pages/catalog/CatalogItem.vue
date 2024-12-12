@@ -17,11 +17,15 @@ function goToProduct() {
 
 <template>
   <div class="grid-item" @click="goToProduct">
+
     <img :src="`https://revyval.store/images/${props.item.images[0]}`" :alt="props.item.title" class="item-image"/>
     <h3 class="item-title">{{ item.title }}</h3>
     <div class="item-price-container">
       <IncreasingNumber :number="item.price" :decimalPlaces="2" class="item-price"/>
       €
+    </div>
+    <div v-if="item.soldOut" class="out-of-stock">
+      <p>Sold out</p>
     </div>
   </div>
 </template>
@@ -36,6 +40,31 @@ function goToProduct() {
   padding: 10px;
   height: 100%;
   cursor: pointer;
+  position: relative; /* Ensure the parent is relative */
+  overflow: hidden; /* Add overflow hidden to the parent */
+}
+
+.out-of-stock {
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 100%;
+  transform: translate(-50%, -50%) rotate(-45deg); /* Center and rotate */
+  align-content: center;
+  border: 2px solid white;
+  height: 60px;
+}
+
+.out-of-stock p {
+  transform: scaleY(2.5);
+  font-stretch: condensed;
+  text-align: center;
 }
 
 .item-image {

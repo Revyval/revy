@@ -7,6 +7,7 @@
     "size": "S/M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 23.1,
+    "soldOut": true,
     "images": [
       "rotten_tee/1.webp",
       "rotten_tee/2.webp"
@@ -46,6 +47,7 @@
     "size": "S/M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 23.6,
+    "soldOut": true,
     "images": [
       "basic_spiked/1.webp",
       "basic_spiked/2.webp"
@@ -59,6 +61,7 @@
     "size": "L",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 29.3,
+    "soldOut": true,
     "images": [
       "umbro_tee/1.webp"
     ]
@@ -71,6 +74,7 @@
     "size": "M",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 24.25,
+    "soldOut": true,
     "images": [
       "cruzified_tee/1.webp",
       "cruzified_tee/2.webp"
@@ -85,6 +89,7 @@
     "size": "XL",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 24.3,
+    "soldOut": true,
     "images": [
       "starflow/1.webp"
     ]
@@ -98,6 +103,7 @@
     "size": "XL",
     "information": "How we measure body: The garment should be on a flat surface, length was measured from the upper back-neck limit down to the lower front edge where it ends/hip. The wide of upperbody garments are measured from armpit to armpit.",
     "price": 23.85,
+    "soldOut": true,
     "images": [
       "flowersquared_shirt/1.webp",
       "flowersquared_shirt/2.webp"
@@ -169,6 +175,7 @@
     "size": "(30x32) M/L",
     "information": "How we measure pants: The garment should be flat on a surface, grab one corner of the hip and measure the length of the leg on the outer side, for the hip, measure from one corner to the other respecting the back edge.",
     "price": 98.9,
+    "soldOut": true,
     "images": [
       "carhartt/1.webp",
       "carhartt/2.webp",
